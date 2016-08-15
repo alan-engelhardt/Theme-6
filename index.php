@@ -2,6 +2,7 @@
 session_start();
 // sessions to keep track if the user is aleady logged in, 
 // and to be able to logout.
+// ny note fra Alan
 $css = "css/style.css";
 $title = "This is my new public page";
 $header = "<h1 class='public'>This is my public page</h1>";
