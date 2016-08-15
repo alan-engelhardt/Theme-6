@@ -2,7 +2,7 @@
 session_start();
 
 $css = "css/style.css";
-$title = "This is my public page";
+$title = "This is my new public page";
 $header = "<h1 class='public'>This is my public page</h1>";
 $content = "";
 $loginForm = "<p><form method='post' action=''>
