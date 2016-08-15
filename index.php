@@ -22,7 +22,7 @@ if(isset($_SESSION['user_ID'])){
             <a href='admin/admin.php'>Admin</a>
             <a href='admin/logout.php'>Logout</a>";
 }else{
-    $nav ="<a href='../index.php'>Frontpage</a>
+    $nav ="<a href='index.php'>Frontpage</a>
         <a href='#'>Page 2</a>
         <a href='#'>Page 3</a>";
     $content .= "<h1>Please log in</h1> $loginForm";
